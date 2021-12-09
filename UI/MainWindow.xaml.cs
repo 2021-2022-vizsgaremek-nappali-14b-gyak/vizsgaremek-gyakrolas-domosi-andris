@@ -25,6 +25,27 @@ namespace Vizsgaremek
         public MainWindow()
         {
             InitializeComponent();
+            Navigate.mainwindow = this;
+            WelcomePage welcomePage = new WelcomePage();
+            Navigate.Navigation(welcomePage);
+
+        }
+
+        
+        private void ListView_PreviewMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            ListView lvMenu = sender as ListView;
+            ListViewItem lvMenuItem = lvMenu.SelectedItem as ListViewItem;
+            
+            if(lvMenuItem != null)
+            {
+                switch (lvMenu.Name)
+                {
+                    case "lviExit":
+                        Close();
+                        break;
+                }
+            }
         }
     }
 }
