@@ -41,7 +41,7 @@ namespace Vizsgaremek
             {
                 switch (lvMenu.Name)
                 {
-                    case "lviExit":
+                    case "lvExit":
                         Close();
                         break;
                 }
