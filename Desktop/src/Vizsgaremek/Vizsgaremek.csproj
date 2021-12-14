@@ -15,9 +15,26 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Converters - Copy\**" />
+    <EmbeddedResource Remove="Converters - Copy\**" />
+    <None Remove="Converters - Copy\**" />
+    <Page Remove="Converters - Copy\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="Icons\exit.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controls\" />
+    <Folder Include="Converters\" />
+    <Folder Include="Models\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Validations\" />
+    <Folder Include="Resources\" />
+    <Folder Include="Repositories\" />
   </ItemGroup>
 
 </Project>
