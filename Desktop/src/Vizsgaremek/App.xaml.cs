@@ -13,6 +13,5 @@ namespace Vizsgaremek
     /// </summary>
     public partial class App : Application
     {
-        
     }
 }
