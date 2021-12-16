@@ -1,15 +1,13 @@
 ---
 name: Felhasználói történet
 about: Describe this issue template's purpose here.
-title: "<Felhasználói történet rövid címe>"
-labels: User Story
+
 assignees: ''
 
 ---
 
 Én, a <felhasználó típus>
-szeretnék <Egy elérendő cél>
-azért, hogy <okok, előnyők>.
+
 
 Elfogadási feltételek:
 
